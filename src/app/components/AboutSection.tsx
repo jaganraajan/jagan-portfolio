@@ -102,6 +102,16 @@ const AboutSection = () => {
           )}
         </div>
       </div>
+      <div className="mt-16 text-center">
+        <h3 className="text-3xl font-bold text-white mb-4">My Work Style</h3>
+        <Image
+          src="/images/work-style.png"
+          alt="VS Code and Copilot in action"
+          width={1920}
+          height={1080}
+          className="rounded-lg mx-auto"
+        />
+      </div>
     </section>
   );
 };
