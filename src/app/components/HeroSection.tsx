@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function Page() {
     return (
@@ -15,11 +14,11 @@ export default function Page() {
               transition={{ duration: 0.5 }}
               className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
             >
-              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+              <div className="flex flex-col gap-4">
                 <span className="text-white bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-                  Hello, I&apos;m Jagan{" "}
+                    Hello, I&apos;m Jagan{" "}
                 </span>
-                <br></br>
                 <span className="text-2xl sm:text-3xl lg:text-5xl">
                     <TypeAnimation
                     sequence={[
@@ -35,18 +34,11 @@ export default function Page() {
                     repeat={Infinity}
                     />
                 </span>
+                </div>
               </h1>
               <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                 I am a passionate Software Developer specializing in building modern, responsive, and user-friendly web applications. Let&apos;s create something amazing together!
               </p>
-              <div>
-                <Link
-                  href="/#contact"
-                  className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-                >
-                  Contact Me
-                </Link>
-              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
