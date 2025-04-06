@@ -95,9 +95,11 @@ const AboutSection = () => {
               Work Experience{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab)?.content || null}
-          </div>
+          {isPending ? (
+            <p className="text-gray-400">Loading...</p> // Show loading indicator
+          ) : (
+            <div>{TAB_DATA.find((t) => t.id === tab)?.content}</div>
+          )}
         </div>
       </div>
     </section>
