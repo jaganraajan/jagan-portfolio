@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://github.com/jaganraajan/fav-stocks-dashboard"
+              href="https://github.com/jaganraajan/"
               className="flex items-center text-gray-300 hover:text-primary-400 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
