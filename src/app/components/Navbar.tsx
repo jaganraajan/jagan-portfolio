@@ -7,7 +7,7 @@ const Navbar = () => {
         {/* Logo or Brand Name */}
         <div className="text-white text-2xl font-bold">
           <a href="#home" className="hover:text-primary-400 transition-colors">
-            Jagan Portfolio
+            Jagan&apos;s Portfolio
           </a>
         </div>
 

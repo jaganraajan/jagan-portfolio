@@ -19,12 +19,12 @@ export default function Page() {
                 <span className="text-white bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
                     Hello, I&apos;m Jagan{" "}
                 </span>
-                <span className="text-2xl sm:text-3xl lg:text-5xl">
+                <span className="text-2xl sm:text-3xl lg:text-5xl mb-4">
                     <TypeAnimation
                     sequence={[
                         "a Full Stack Developer",
                         1000,
-                        "a Go/Node.js Backend Developer",
+                        "a Node.js Backend Developer",
                         1000,
                         "a React.js/Next.js UI Developer",
                         1000,
@@ -46,13 +46,12 @@ export default function Page() {
               transition={{ duration: 0.5 }}
               className="col-span-4 place-self-center mt-4 lg:mt-0"
             >
-              <div className="rounded-full bg-[#999999] w-[250px] h-[250px] lg:w-[320px] lg:h-[320px] relative">
+              <div className="relative md:ml-16 lg:ml-16 w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[300px] lg:h-[300px] rounded-full bg-gray-700 flex items-center justify-center">
                 <Image
                   src="/images/hero-image.png"
                   alt="hero image"
-                  className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
-                  width={300}
-                  height={300}
+                  className="rounded-full"
+                  fill
                 />
               </div>
             </motion.div>
