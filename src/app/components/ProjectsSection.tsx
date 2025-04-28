@@ -30,7 +30,16 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jaganraajan/Jagadeeshwaran-RajaUmashankar/",
         previewUrl: "https://github.com/jaganraajan/Jagadeeshwaran-RajaUmashankar/",
-    }
+    },
+    {
+      id: 4,
+      title: "Gemini AI Chatbot",
+      description: "A simplified AI project built with Next.js. This side project helped me to quickly experiment with AI integrations and learn the basics of building AI-powered applications. Built with Next.js, AI SDK, Tailwind CSS, TypeScript, and shadcn, it provides a minimalistic foundation for creating AI chatbots, focusing on simplicity and speed.",
+      image: "/images/projects/4.png",
+      tag: ["All", "AI", "Web"],
+      gitUrl: "https://github.com/jaganraajan/ai-lite-nextjs",
+      previewUrl: "https://chatbot-lite-nextjs.vercel.app/",
+    },
 ];
 
 const ProjectsSection = () => {
@@ -47,7 +56,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
         {projectsData.map((project, index) => (
           <motion.li
             key={index}
