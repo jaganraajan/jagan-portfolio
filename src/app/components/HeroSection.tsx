@@ -24,9 +24,9 @@ export default function Page() {
                     sequence={[
                         "a Full Stack Developer",
                         1000,
-                        "a Node.js Backend Developer",
+                        "a Ruby on Rails Developer",
                         1000,
-                        "a React.js/Next.js UI Developer",
+                        "a React.js/Node.js Developer",
                         1000,
                     ]}
                     wrapper="span"

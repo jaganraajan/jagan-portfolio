@@ -21,6 +21,7 @@ const TAB_DATA: TabData[] = [
         <li>PostgreSQL</li>
         <li>TypeScript</li>
         <li>JavaScript</li>
+        <li>Ruby on Rails</li>
         <li>Java</li>
         <li>Python</li>
       </ul>

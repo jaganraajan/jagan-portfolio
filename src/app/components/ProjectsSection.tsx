@@ -40,6 +40,26 @@ const projectsData = [
       gitUrl: "https://github.com/jaganraajan/ai-lite-nextjs",
       previewUrl: "https://chatbot-lite-nextjs.vercel.app/",
     },
+    {
+      id: 5,
+      title: "Projects Board",
+      description:
+        "A collaborative project management board built with Next.js and TypeScript. This tool allows teams to organize, track, and manage tasks efficiently with a modern UI and real-time updates. Features include drag-and-drop task management, user authentication, and integration with popular developer tools.",
+      image: "/images/projects/5.png",
+      tag: ["All", "Web", "Management"],
+      gitUrl: "https://github.com/jaganraajan/projects-board",
+      previewUrl: "https://projects-board-zeta.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Projects Board Tenant Server",
+      description:
+        "A multi-tenant backend server for the Projects Board application. Built with Ruby on Rails, it provides secure APIs, tenant isolation, and scalable architecture for managing multiple organizations and users. Designed for reliability and easy integration with the Projects Board frontend.",
+      image: "/images/projects/5.png",
+      tag: ["All", "Backend", "API"],
+      gitUrl: "https://github.com/jaganraajan/projects-board-tenant-server",
+      previewUrl: "https://projects-board-zeta.vercel.app/",
+    },
 ];
 
 const ProjectsSection = () => {
