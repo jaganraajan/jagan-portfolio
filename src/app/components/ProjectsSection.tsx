@@ -14,24 +14,6 @@ const projectsData = [
         previewUrl: "https://fav-stocks-dashboard.vercel.app/", 
     },
     {
-        id: 2,
-        title: "React.js/Next.js Portfolio Website",
-        description: "Designed and developed a personal portfolio website using React.js and Next.js. The website is fully responsive, optimized for performance, and deployed on Vercel. It showcases projects, skills, and contact information with a clean and modern UI.",
-        image: "/images/projects/2.png",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/jaganraajan/jagan-portfolio",
-        previewUrl: "https://jagan-raajan.vercel.app/",
-    },
-    {
-        id: 3,
-        title: "Shopify E-commerce Application",
-        description: "Developed a responsive Shopify E-commerce application using Liquid and Shopify's Storefront API. This project showcases a seamless integration of Shopify's backend with a custom frontend with HTML, CSS, and vanilla JavaScript, allowing users to browse products, add them to the cart, and checkout.",
-        image: "/images/projects/3.png",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/jaganraajan/Jagadeeshwaran-RajaUmashankar/",
-        previewUrl: "https://github.com/jaganraajan/Jagadeeshwaran-RajaUmashankar/",
-    },
-    {
       id: 4,
       title: "Gemini AI Chatbot",
       description: "A simplified AI project built with Next.js. This side project helped me to quickly experiment with AI integrations and learn the basics of building AI-powered applications. Built with Next.js, AI SDK, Tailwind CSS, TypeScript, and shadcn, it provides a minimalistic foundation for creating AI chatbots, focusing on simplicity and speed.",
@@ -59,6 +41,15 @@ const projectsData = [
       tag: ["All", "Backend", "API"],
       gitUrl: "https://github.com/jaganraajan/projects-board-tenant-server",
       previewUrl: "https://projects-board-zeta.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Projects Board App",
+      description: "A mobile-optimized Kanban-style project management board built with Expo React Native. Features include touch-friendly task management with To Do, In Progress, and Done columns; secure JWT authentication with multi-tenant support; create, edit, delete, and move tasks; native iOS design with rounded corners and smooth animations; offline-ready with AsyncStorage; task priority and due date management.",
+image: "/images/projects/6.png",
+      tag: ["All", "Mobile", "Frontend"],
+      gitUrl: "https://github.com/jaganraajan/projects-board-app",
+      previewUrl: "https://github.com/jaganraajan/projects-board-app",
     },
 ];
 
