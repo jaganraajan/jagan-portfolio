@@ -16,6 +16,7 @@ const TAB_DATA: TabData[] = [
     id: "skills",
     content: (
       <ul className="list-none pl-2">
+        <li>Python</li>
         <li>Node.js</li>
         <li>React.js</li>
         <li>PostgreSQL</li>
@@ -23,7 +24,6 @@ const TAB_DATA: TabData[] = [
         <li>JavaScript</li>
         <li>Ruby on Rails</li>
         <li>Java</li>
-        <li>Python</li>
       </ul>
     ),
   },
@@ -66,8 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 flex flex-col h-full text-center md:text-left">
           <h2 className="text-4xl font-bold text-white mb-4 text-center sm:text-center">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Fullstack Web developer with a passion for creating
-            interactive and responsive web applications. I have experience working with JavaScript, TypeScript, React.js, Next.js, Node.js, PostgreSQL, HTML, CSS, Java, Python, and Git. I am excited to work with others to create amazing applications and I am always looking to expand my skill set.
+            I am a Fullstack AI Engineer with a passion for creating interactive and responsive web applications with AI and LLM integration. I have experience working with JavaScript, TypeScript, React.js, Next.js, Node.js, PostgreSQL, and Python. My recent project: rag-document-parser — a modular RAG toolkit with semantic + lexical search (llama-text-embed-v2, multilingual-e5-large, BM25, Pinecone sparse), rigorous evaluation (Precision@k, Recall@k, Hit Rate) tracked in MLflow, hybrid retrieval & reranking (bge-reranker-v2-m3, cross-encoder/ms-marco-MiniLM-L-12-v2), and production observability (Prometheus, Grafana, OpenTelemetry) documented via ADRs.
           </p>
           <div className="flex flex-row justify-center mt-8">
             <TabButton

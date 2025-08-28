@@ -22,11 +22,11 @@ export default function Page() {
                 <span className="text-2xl sm:text-3xl lg:text-5xl mb-4">
                     <TypeAnimation
                     sequence={[
-                        "a Full Stack Developer",
+                        "a Full-stack AI Developer",
                         1000,
-                        "a Ruby on Rails Developer",
+                        "a MLOps Python Developer",
                         1000,
-                        "a React.js/Node.js Developer",
+                        "a React.js/Next.js Developer",
                         1000,
                     ]}
                     wrapper="span"
@@ -37,7 +37,7 @@ export default function Page() {
                 </div>
               </h1>
               <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                I am a passionate Software Developer specializing in building modern, responsive, and user-friendly web applications. Let&apos;s create something amazing together!
+                I am a passionate Full-stack AI Software Developer specializing in LLM integration and retrieval optimization in modern, responsive, and user-friendly web applications. Let&apos;s create something amazing together!
               </p>
             </motion.div>
             <motion.div
